@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class IndexController {
 
     @RequestMapping("index")
-    public String Index(){
-        return  "Index page";
+    public String getIndexPage(){
+        return  "Index page new page";
     }
 }
